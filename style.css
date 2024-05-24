@@ -1,0 +1,28 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+div{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(255, 0, 55);
+    position: relative;
+    animation-name: ALPACHINO;
+    animation-duration: 19s; 
+    animation-delay: 1s;
+}
+@keyframes ALPACHINO{
+    0% {
+        top: 350px;
+        left: 0px;
+        background-color: black;
+        transform: rotate(0deg);
+    }
+    100%{
+        top: 350px;
+        left: 1435px;
+        background-color: black;
+        transform: rotate(1710deg);
+    }
+}
